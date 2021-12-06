@@ -208,7 +208,7 @@
             RET4.addEventListener('dragover', (e) => {
               e.dataTransfer.dropEffect = 'move'
             })
-            RET4.addEventListener('drop', function (e) {
+            RET4.addEventListener('drop', (e) => {
               RET4.appendChild(MET4[e.dataTransfer.getData('itemNumber')])
             })
           }
